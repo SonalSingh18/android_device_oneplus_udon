@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "branch": "udc",
+    "repository": "SonalSingh18/android_device_oneplus_sm8450-common",
+    "target_path": "device/oneplus/sm8450-common"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "maitreyapatni25/vendor_oneplus_udon",
+    "branch": "14",
+    "target_path": "vendor/oneplus/udon"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "maitreyapatni25/vendor_oneplus_firmware-udon",
+    "branch": "14",
+    "target_path": "vendor/oneplus/firmware-udon"
+  }
+]

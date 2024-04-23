@@ -1,0 +1,9 @@
+git clone https://github.com/SonalSingh18/android_device_oneplus_sm8450-common.git -b udc device/oneplus/sm8450-common
+git clone https://gitlab.com/maitreyapatni25/vendor_oneplus_udon.git -b 14 vendor/oneplus/udon
+git clone https://gitlab.com/maitreyapatni25/vendor_oneplus_sm8450-common.git -b 14 vendor/oneplus/sm8450-common
+git clone https://gitlab.com/maitreyapatni25/vendor_oneplus_firmware-udon.git -b 14 vendor/oneplus/firmware-udon
+git clone https://github.com/SonalSingh18/android_kernel_oneplus_sm8450.git -b udc kernel/oneplus/sm8450
+git clone https://github.com/opudon/android_kernel_oneplus_sm8450-devicetrees.git -b 14 kernel/oneplus/sm8450-devicetrees
+git clone https://github.com/opudon/android_kernel_oneplus_sm8450-modules.git -b 14 kernel/oneplus/sm8450-modules
+git clone https://github.com/SonalSingh18/android_hardware_oplus.git -b udc-sm8450 hardware/oplus
+git clone https://github.com/opudon/hardware_dolby.git -b 14 hardware/dolby

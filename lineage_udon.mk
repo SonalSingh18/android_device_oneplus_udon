@@ -11,8 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from udon device
 $(call inherit-product, device/oneplus/udon/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+EVO_BUILD_TYPE := Community
+BUILD_BCR := false
+PRODUCT_NO_CAMERA := true
 
 PRODUCT_NAME := lineage_udon
 PRODUCT_DEVICE := udon
