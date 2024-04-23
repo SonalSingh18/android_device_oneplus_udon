@@ -11,8 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from udon device
 $(call inherit-product, device/oneplus/udon/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common crdoid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# GMS
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gms/gms_full.mk)
+endif
+
+PRODUCT_NO_CAMERA := true
+TARGET_DISABLE_EPPE := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_udon
 PRODUCT_DEVICE := udon
